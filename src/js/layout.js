@@ -143,9 +143,9 @@ var Layout = function () {
             handleWorkPopup(); // initial setup for group work popup
             
             // handle minimized header on page scroll
-            $(window).scroll(function() {
-                handleHeaderOnScroll();
-            });
+//            $(window).scroll(function() {
+//                handleHeaderOnScroll();
+//            });
         },
 
         // To get the correct viewport width based on  http://andylangton.co.uk/articles/javascript/get-viewport-size-javascript/

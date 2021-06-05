@@ -34,13 +34,14 @@ html, html a, body {
 body {
   position: relative;
   font-family: Hind, sans-serif;
+  font-size: 18px;
 }
 
 p {
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 400;
   font-family: Hind, sans-serif;
-  color: #a6a7aa;
+  color: #361727;
   line-height: 1.4;
   margin-bottom: 15px;
 }
@@ -48,7 +49,7 @@ p {
 em,
 li,
 li a {
-  font-size: 16px;
+  font-size: 24px;
   font-weight: 500;
   font-family: Hind, sans-serif;
   color: #515769;
@@ -114,10 +115,12 @@ h1 > a:focus, h2 > a:focus, h3 > a:focus, h4 > a:focus, h5 > a:focus, h6 > a:foc
 
 h1 {
   font-size: 40px;
+  color: #883A61;
 }
 
 h2 {
   font-size: 30px;
+  color: #515769;
 }
 
 h3 {
@@ -135,13 +138,13 @@ h4 {
 }
 
 ::-webkit-selection {
-  color: #fff;
+  color: #515769;
   background: #17bed2;
   text-shadow: none;
 }
 
 ::-moz-selection {
-  color: #fff;
+  color: #515769;
   background: #17bed2;
   text-shadow: none;
 }
@@ -272,6 +275,14 @@ fieldset[disabled] .btn-theme {
   border-color: #fff;
 }
 
+.btn-gray-brd {
+  border: 1px solid #d6d6d6;
+}
+
+.btn-gray-brd:hover, .btn-gray-brd:focus, .btn-white-brd.focus {
+  border-color: #222222;
+}
+
 .btn-default-bg {
   color: #515769;
   background: #f3f4f5;
@@ -357,7 +368,7 @@ fieldset[disabled] .btn-theme {
   position: relative;
   z-index: 1;
   text-align: center;
-  background: url(../img/1920x1080/02.jpg) no-repeat;
+  background: url(../img/da-logo.png) no-repeat;
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
@@ -371,7 +382,7 @@ fieldset[disabled] .btn-theme {
   width: 100%;
   height: 100%;
   z-index: -1;
-  background: rgba(81, 87, 105, 0.4);
+  background: rgba(81, 87, 105, 0.85);
   content: " ";
 }
 
@@ -393,10 +404,11 @@ fieldset[disabled] .btn-theme {
   position: relative;
   z-index: 1;
   text-align: center;
-  background: url(../img/1920x1080/01.jpg) no-repeat;
+  background: url(../img/da-logo.png) no-repeat;
   background-size: cover;
   background-position: center center;
   padding: 250px 0 200px;
+  margin-top: 97px;
 }
 
 .promo-block:before {
@@ -406,7 +418,7 @@ fieldset[disabled] .btn-theme {
   width: 100%;
   height: 100%;
   z-index: -1;
-  background: rgba(81, 87, 105, 0.4);
+  /* background: rgba(81, 87, 105, 0.4); */
   content: " ";
 }
 
@@ -625,6 +637,7 @@ fieldset[disabled] .btn-theme {
 
 /* Navbar */
 .header .navbar {
+  background: #fff;
   margin-bottom: 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   transition-duration: 300ms;
@@ -781,7 +794,7 @@ fieldset[disabled] .btn-theme {
   font-size: 13px;
   font-weight: 600;
   font-family: Hind, sans-serif;
-  color: #fff;
+  color: #515769;
   text-transform: uppercase;
   line-height: 55px;
   padding: 20px;
